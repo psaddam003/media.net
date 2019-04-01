@@ -6,6 +6,24 @@ body {
     margin: 0;
     padding: 0;
 }
+.responsive {
+  max-width: 100%;
+  height: auto;
+    background: #000;
+}
+
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+      justify-content: center;
+
+}
+.flex-container > div {
+  width: 100%;
+     height: auto;
+  text-align: center;
+}
 
 .border {
     top: 0;
@@ -602,8 +620,8 @@ article {
 }
 
 .img11 {
-    width: 314px;
-    height: 210px;
+   width: 100%;
+  height: auto;
     object-fit: contain;
     background: #000;
 }
@@ -730,7 +748,7 @@ article {
 
 .top-left1 {
     position: absolute;
-    top: 220px;
+    top: 164px;
     left: 15px;
 }
 
@@ -773,7 +791,6 @@ article {
     position: relative;
     text-align: center;
     object-fit: contain;
-    margin: 0px 0px 0px 3px;
 }
 
 .centered {
@@ -787,7 +804,7 @@ article {
 
 .centered2 {
     position: absolute;
-    top: 11%;
+    top: 17%;
     left: 45%;
     transform: translate(-6%, -5%);
     font-size: 50px;
@@ -804,43 +821,53 @@ article {
 }
 
 .add {
-    margin: 0px 17px 15px 8px;
     position: relative;
     text-align: center;
 }
 
 .find {
-    margin: 34px 33px 6px 10px;
     position: relative;
     text-align: center;
 }
 
-.hello5 {
-    margin: 169px -204px -152px 164px;
-}
 
+.hell2 {
+    background-color: #1e212d;
+    margin: 0px 6px -12px 6px;
+    padding: 4px 5px 10px 4px;
+    max-width: 100%;
+    height: auto;
+}
 .hello {
     background-color: #1e212d;
     margin: -24px 5px 5px 4px;
     padding: 7px 4px 7px 5px;
+    max-width: 100%;
+  height: auto;
 }
 
 .hello1 {
     background-color: #1e212d;
-    margin: 0px 6px -6px 6px;
+    margin: 0px 6px -12px 6px;
     padding: 6px 3px 7px 6px;
+    max-width: 100%;
+    height: auto;
 }
 
 .hello2 {
     background-color: #1e212d;
     margin: 0px 0px -8px 0px;
     padding: 4px 5px 10px 4px;
+    max-width: 100%;
+  height: auto;
 }
 
 .hello3 {
     background-color: #1e212d;
     margin: -8px 0px 31px 0px;
     padding: 9px 3px 10px 6px;
+    max-width: 100%;
+  height: auto;
 }
 
 .link {
@@ -903,6 +930,18 @@ article {
     .img110 {
         width: 302px;
     }
+    .top-left1 {
+    position: absolute;
+    top: 164px;
+    left: 15px;
+}
+    .centered1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
     .e {
         object-fit: contain;
         margin: 45px 2px 1px -16px;
@@ -959,7 +998,6 @@ article {
         color: #000000;
     }
     .find {
-        margin: 0px 33px 6px 10px;
         position: relative;
         text-align: center;
     }
@@ -1044,6 +1082,11 @@ article {
         padding: 0;
         box-sizing: border-box;
     }
+     .responsive {
+  max-width: 100%;
+  height: auto;
+    background: #000;
+}
     .c {
         height: 388px;
         background-color: #000;
@@ -1118,22 +1161,22 @@ article {
         line-height: 16px;
     }
     .All {
-        width: 492px;
-        height: 98px;
-        object-fit: contain;
-        font-family: BebasNeue;
-        font-size: 23px;
-        font-weight: normal;
-        font-style: normal;
-        font-stretch: normal;
-        line-height: normal;
-        letter-spacing: normal;
-        text-align: left;
-        color: #1e212d;
-        margin: 128px 9px 9px -19px;
-        padding: 7px 5px 6px 0px;
-        background-color: #f2f2f2;
-    }
+    width: 267px;
+    height: 98px;
+    object-fit: contain;
+    font-family: BebasNeue;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1e212d;
+    margin: 110px 9px 9px -19px;
+    padding: 7px 5px 6px 0px;
+    background-color: #f2f2f2;
+}
     .img11 {
         width: 494px;
         height: 330px;
@@ -1221,23 +1264,14 @@ article {
         color: #fff;
     }
     .centered1 {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-9%, -47%);
-        color: #fff;
-        font-size: 11px;
-        /* margin: 3px 0px 1px -3px; */
-    }
-    .hello5 {
-        /* margin: 169px -204px -152px 210px; */
-        margin: 2px 3px 2px 125px;
-    }
-    .hello5 {
-        /* margin: 169px -204px -152px 210px; */
-        margin: 3px 5px -272px 124px;
-        width: 58px;
-    }
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 11px;
+}
+    
 }
 
 
@@ -1245,14 +1279,19 @@ article {
 
 @media only screen and (min-width: 769px) and (max-width: 992px) {
     .c {
-        height: 399px;
-        width: 279px;
-        background-color: #000;
-        position: relative;
-        text-align: center;
-        top: 19px;
-        margin: 3px 3px 116px 14px;
-    }
+    height: 326px;
+    width: 260px;
+    background-color: #000;
+    position: relative;
+    text-align: center;
+    top: 21px;
+    margin: 0px 0px 0px -16px;
+}
+    .responsive {
+  max-width: 100%;
+  height: auto;
+    background: #000;
+}
     .imgB1 {
         top: 0px;
         left: 0px;
@@ -1361,8 +1400,8 @@ article {
         margin: -34px 4px 4px -7px;
     }
     .Are {
-        width: 259px;
-        height: 67px;
+        width: 100%;
+    height: auto;
         object-fit: contain;
         font-family: Roboto;
         font-size: 14px;
@@ -1440,23 +1479,14 @@ article {
         color: #fff;
     }
     .centered1 {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-37%, -50%);
-        color: #fff;
-        font-size: 14px;
-        /* margin: 3px 0px 1px -3px; */
-    }
-    .hello5 {
-        /* margin: 169px -204px -152px 210px; */
-        margin: 2px 3px 2px 125px;
-    }
-    .hello5 {
-        /* margin: 169px -204px -152px 210px; */
-        margin: 169px -168px -159px 131px;
-        width: 58px;
-    }
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 14px;
+}
+   
     #sticky {
         padding: 20px;
         margin: 112px 0px 0px 0px;
